@@ -43,7 +43,7 @@ export const BentoGrid: React.FC = () => {
       <div className="flex items-end justify-between gap-4 pb-5 border-b-2 border-black">
         <div>
           <h1 className="text-[36px] sm:text-[48px] font-black text-black tracking-[-0.04em] leading-[0.92]">
-            Anne's Vault
+            Tracy's Vault
           </h1>
           <p className="text-[13px] font-mono text-[#666] mt-1">
             {mediaItems.length} items stored privately

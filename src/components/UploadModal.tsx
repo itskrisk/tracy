@@ -63,7 +63,7 @@ export const UploadModal: React.FC = () => {
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-[#FFE600]" />
             <span className="text-[12px] font-mono font-black uppercase tracking-widest text-[#FFE600]">
-              ADD TO ANNE'S VAULT
+              ADD TO TRACY'S VAULT
             </span>
           </div>
 

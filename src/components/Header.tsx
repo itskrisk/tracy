@@ -60,7 +60,7 @@ export const Header: React.FC = () => {
           </nav>
         </div>
 
-        {/* Right: Add + Anne + Lock */}
+        {/* Right: Add + Tracy + Lock */}
         <div className="flex items-center gap-2">
           <button
             onClick={() => setIsUploadModalOpen(true)}
@@ -74,7 +74,7 @@ export const Header: React.FC = () => {
             onClick={() => setIsSecurityModalOpen(true)}
             className="h-8 px-3 border-2 border-black bg-white hover:bg-[#F5F3EC] transition cursor-pointer font-bold text-[13px] tracking-tight text-black nb-shadow-xs"
           >
-            Anne
+            Tracy
           </button>
 
           <button

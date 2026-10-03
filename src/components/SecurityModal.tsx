@@ -89,7 +89,7 @@ export const SecurityModal: React.FC = () => {
           <div className="flex items-center gap-2.5">
             <span className="w-2.5 h-2.5 rounded-full bg-[#FFE600]" />
             <span className="text-[12px] font-mono font-black uppercase tracking-widest text-[#FFE600]">
-              VAULT CONFIGURATION · ANNE
+              VAULT CONFIGURATION · TRACY
             </span>
           </div>
 
@@ -142,11 +142,11 @@ export const SecurityModal: React.FC = () => {
               >
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-[#2563EB] text-white border-2 border-black text-[20px] font-black flex items-center justify-center nb-shadow-xs">
-                    ANNE
+                    TRACY
                   </div>
                   <div>
                     <h4 className="text-[18px] font-black text-black tracking-tight leading-tight">
-                      Anne
+                      Tracy
                     </h4>
                     <p className="text-[12px] font-mono text-[#666]">
                       {user?.email || 'adedetracy481@gmail.com'} · Vault Owner
@@ -499,7 +499,7 @@ export const SecurityModal: React.FC = () => {
                 {dangerConfirm === 'deleteVault' ? (
                   <div className="p-3 bg-white border-2 border-black space-y-2">
                     <p className="text-[12px] font-bold text-red-600">
-                      Permanently wipe Anne's entire vault and cryptographic keys?
+                      Permanently wipe Tracy's entire vault and cryptographic keys?
                     </p>
                     <div className="flex gap-2">
                       <button
