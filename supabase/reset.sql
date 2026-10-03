@@ -5,9 +5,8 @@
 
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
--- ── 1. WIPE ALL MEDIA AND STORAGE FILES ───────────────────────
+-- ── 1. WIPE ALL MEDIA ITEMS ──────────────────────────────────
 TRUNCATE TABLE public.media_items RESTART IDENTITY CASCADE;
-DELETE FROM storage.objects WHERE bucket_id = 'vault';
 
 -- ── 2. ENSURE STORAGE BUCKET EXISTS ───────────────────────────
 INSERT INTO storage.buckets (id, name, public, file_size_limit)
