@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #F5F3EC;
+    color: #0F0F0F;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  }
+
+  ::selection {
+    background-color: #FF2E93;
+    color: #FFFFFF;
+  }
+}
+
+/* Neo-brutalist shadow utility presets */
+.nb-shadow-xs {
+  box-shadow: 2px 2px 0px #000000;
+}
+.nb-shadow {
+  box-shadow: 4px 4px 0px #000000;
+}
+.nb-shadow-md {
+  box-shadow: 5px 5px 0px #000000;
+}
+.nb-shadow-lg {
+  box-shadow: 6px 6px 0px #000000;
+}
+.nb-shadow-xl {
+  box-shadow: 8px 8px 0px #000000;
+}
+.nb-shadow-hover:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 6px 6px 0px #000000;
+}
+.nb-shadow-hover:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000000;
+}
+
+/* Neo-brutalist color shadows */
+.nb-shadow-pink {
+  box-shadow: 4px 4px 0px #FF2E93;
+}
+.nb-shadow-blue {
+  box-shadow: 4px 4px 0px #2563EB;
+}
+.nb-shadow-yellow {
+  box-shadow: 4px 4px 0px #FFE600;
+}
+.nb-shadow-red {
+  box-shadow: 4px 4px 0px #EF4444;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F3EC;
+  border-left: 2px solid #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border: 1px solid #FFFFFF;
+}
